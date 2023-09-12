@@ -121,7 +121,7 @@ $\underline{x}_k \sim \mathcal{N}\left(\hat{\underline{x}}_{k}(+), P_{k}(+)\righ
 
 综上所述，总结离散卡尔曼滤波器的所有公式为：
 
-![image-20230909214901445](C:\Users\xiame\Desktop\Signal Processing\Kalman Filter.assets\image-20230909214901445.png)
+![image-20230909214901445](Kalman Filter.assets\image-20230909214901445.png)
 
 ### $K_k$的另一种表达
 
@@ -151,7 +151,7 @@ $$
 
 ## 连续卡尔曼滤波器
 
-![image-20230910144821986](C:\Users\xiame\Desktop\Signal Processing\Kalman Filter.assets\image-20230910144821986.png)
+![image-20230910144821986](Kalman Filter.assets\image-20230910144821986.png)
 
 ## 误差协方差矩阵与`CRB`
 
@@ -243,7 +243,7 @@ $$
 $$
  {P}_k(+)=E\left[\tilde{\underline{x}}_k(+) \tilde{\underline{x}}_k(+)^T\right] \tag{40} \label{40}
 $$
-![image-20230911171225718](C:\Users\xiame\Desktop\Signal Processing\Kalman Filter.assets\image-20230911171225718.png)
+![image-20230911171225718](Kalman Filter.assets\image-20230911171225718.png)
 
 同时，定义：
 $$
@@ -274,11 +274,11 @@ H_k\left(\hat{\underline{x}}_k(-)\right)=\left.\frac{\partial \underline{{h}}_k(
 $$
 将式$\eqref{44}$代入式$\eqref{39},\eqref{42},\eqref{43}$，得到：
 
-![image-20230911172914012](C:\Users\xiame\Desktop\Signal Processing\Kalman Filter.assets\image-20230911172914012.png)
+![image-20230911172914012](Kalman Filter.assets\image-20230911172914012.png)
 
 最后，扩展卡尔曼滤波器总结如下：
 
-![image-20230911174521894](C:\Users\xiame\Desktop\Signal Processing\Kalman Filter.assets\image-20230911174521894.png)
+![image-20230911174521894](Kalman Filter.assets\image-20230911174521894.png)
 
  如果状态方程不是微分方程，那么可以将状态估计传播和误差矩阵传播方程改为：
 $$
@@ -287,10 +287,6 @@ $$
 & P_{k}(-)=F(\hat{\underline{x}}_{k-1}(+))P_{k-1}(+)F(\hat{\underline{x}}_{k-1}(+))+Q_{k-1} 
 \end{aligned} \tag{46} \label{46}
 $$
-
-
-
-
 
 
 
