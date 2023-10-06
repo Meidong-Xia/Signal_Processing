@@ -155,7 +155,7 @@ $$
 
 ## 误差协方差矩阵与`CRB`
 
-对于一个确定非线性系统，当没有预测误差（即状态变量是确定的$\underline{w}_{k-1}=0$），并且测量方程的误差是高斯噪声时，满足：
+对于一个**确定非线性系统，当没有预测误差（即状态变量是确定的$\underline{w}_{k-1}=0$），并且测量方程的误差是高斯噪声时**，满足：
 $$
 \left(P_K^*\right)^{-1}=\left(\Phi_{K-1} P_{K-1}^* \Phi_{K-1}^T\right)^{-1}+H_K^T R_K^{-1} H_K \tag{23}\label{23}
 $$
@@ -173,7 +173,7 @@ $$
 $$
 \underline{z}_k=\underline{h}_k\left(\underline{x}\left(t_k\right)\right)+\underline{v}_k, \quad k=1,2, \ldots \tag{25} \label{25}
 $$
-其中$\dot{()}$表示求导，$w_{t}$表示零均值、谱密度矩阵为$\mathrm{Q}(\mathrm{t})$的高斯噪声，$v_k$是零均值、协方差矩阵为$\mathrm{R}_{\mathrm{k}}$的高斯随机噪声。
+其中**$\dot{()}$表示求导**，$w_{t}$表示零均值、谱密度矩阵为$\mathrm{Q}(\mathrm{t})$的高斯噪声，$v_k$是零均值、协方差矩阵为$\mathrm{R}_{\mathrm{k}}$的高斯随机噪声。
 
 **不管是什么概率密度函数，最小方差估计总是状态向量的条件均值**。
 
@@ -195,7 +195,7 @@ $$
 $$
 \dot{\hat{\underline{x}}}(\mathrm{t})=\hat{\underline{f}}(\underline{x}(\mathrm{t}), \mathrm{t}), \quad \mathrm{t}_{\mathrm{k}-1} \leqslant \mathrm{t}<\mathrm{t}_{\mathrm{k}} \tag{29} \label{29}
 $$
-其中$\hat{()}$表示期望操作。误差协方差矩阵可以表示为：
+其中**$\hat{()}$表示期望**操作。误差协方差矩阵可以表示为：
 $$
 P(t) \triangleq E\left[[\hat{\underline{x}}(t)-\underline{x}(t)][\hat{\underline{x}}(t)-\underline{x}(t)]^T\right] \tag{30} \label{30}
 $$
